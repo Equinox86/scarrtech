@@ -4,7 +4,7 @@
 </script>
 
 <Hero />
-
+<!--
 <section class="page-body">
 	<div class="container">
 		<h3>Welcome</h3>
@@ -23,4 +23,4 @@
 	}
 
 	.container h3 { margin-top: 0; }
-</style>
+</style> -->
