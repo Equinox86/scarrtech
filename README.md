@@ -9,4 +9,4 @@ Squarespace page.
 Maybe I am cheap, or just a glutton for punishment - but I thought the best thing to
 do was vibecode a page from scratch to host on cloudflare pages.
 
-Please feel free to visit the site at <a href="https://www.scarrtech.com">scartech.com</a>
+Please feel free to visit the site at <a href="https://www.scarrtech.com">scarrtech.com</a>
