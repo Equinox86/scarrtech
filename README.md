@@ -1,38 +1,12 @@
-# sv
+# Scarrtech Webpage Source code
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is the source code for my personal project page.
+This page was vibecoded using svelte-kit, tailwind, and copilot.
 
-## Creating a project
+I am not a UI guy, but I didn't want to fork over the $200 a year for a cookie cutter
+Squarespace page.
 
-If you're seeing this, you've probably already done this step. Congrats!
+Maybe I am cheap, or just a glutton for punishment - but I thought the best thing to
+do was vibecode a page from scratch to host on cloudflare pages.
 
-```sh
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Please feel free to visit the site at <a href="https://www.scarrtech.com">scartech.com</a>

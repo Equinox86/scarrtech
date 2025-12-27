@@ -1,6 +1,6 @@
 <footer>
 	<div class="footer-content">
-		<p><em>Vibe-coded by Stephen Carrasquillo</em></p>
+		<p><em>Vibe-coded by Stephen Carrasquillo in 2025 : <a href=https://github.com/Equinox86/scarrtech>Check out the source on GitHub</a></em></p>
 	</div>
 </footer>
 
