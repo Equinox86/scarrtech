@@ -12,8 +12,8 @@ export const blogPosts: BlogPostData[] = [
     date: 'December 25, 2025',
     content: `
         <p>
-            It's Christmas! I finally have some downtime to put this site together. Since I wanted to get up and running I and am
-            going to rely heavily on co-pilot to make this site, with the goal of getting a professional, clean looking style as
+            It's Christmas! I finally have some downtime to put this site together. Since I wanted to get up and running I am
+            going to rely heavily on co-pilot with the goal of getting a professional, clean looking site as
             quickly as possible.
 
             Since I hosting this site on Cloudflare, I am going to use Svelte with npm to quickly generate a template.
