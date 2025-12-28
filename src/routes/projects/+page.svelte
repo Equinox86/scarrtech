@@ -1,8 +1,8 @@
 <script lang="ts">
-  import d1 from '$lib/assets/device1.svg';
-  import d2 from '$lib/assets/device2.svg';
+  import d1 from '$lib/assets/talos.png';
+  import d2 from '$lib/assets/voltair.png';
   import d3 from '$lib/assets/device3.svg';
-  import p1 from '$lib/assets/printing1.svg';
+  import p1 from '$lib/assets/tekton.png';
   import p2 from '$lib/assets/printing2.svg';
   import p3 from '$lib/assets/printing3.svg';
   import a1 from '$lib/assets/arch1.svg';
@@ -13,33 +13,33 @@
 <main class="projects-page">
   <header class="projects-header">
     <h1>Projects</h1>
-    <p>Explore selected work across Devices, 3D Printing, and Computer Architecture.</p>
+    <p> Here is a catalog of all my projects in various stages of completion</p>
   </header>
 
   <section class="projects-section">
-    <h2>Devices</h2>
+    <h2>Electronic Projects</h2>
     <div class="tiles">
       <a class="tile" href="#">
-        <img src={d1} alt="Device 1" />
+        <img src={d1} alt="Talos" />
         <div class="tile-caption">
-          <strong>Device One</strong>
-          <span>Handheld sensor platform</span>
+          <strong>Talos</strong>
+          <span>A personal smart home speaker</span>
         </div>
       </a>
 
       <a class="tile" href="#">
-        <img src={d2} alt="Device 2" />
+        <img src={d2} alt="VoltAir" />
         <div class="tile-caption">
-          <strong>Device Two</strong>
-          <span>Low-power controller</span>
+          <strong>VoltAir</strong>
+          <span>A Wireless energy monitoring solution</span>
         </div>
       </a>
 
       <a class="tile" href="#">
         <img src={d3} alt="Device 3" />
         <div class="tile-caption">
-          <strong>Device Three</strong>
-          <span>Prototype board</span>
+          <strong>UAV Dreadnaught</strong>
+          <span>A robust quadcopter</span>
         </div>
       </a>
     </div>
@@ -51,24 +51,8 @@
       <a class="tile" href="#">
         <img src={p1} alt="3D Print 1" />
         <div class="tile-caption">
-          <strong>Print Alpha</strong>
-          <span>Functional bracket</span>
-        </div>
-      </a>
-
-      <a class="tile" href="#">
-        <img src={p2} alt="3D Print 2" />
-        <div class="tile-caption">
-          <strong>Print Beta</strong>
-          <span>Custom enclosure</span>
-        </div>
-      </a>
-
-      <a class="tile" href="#">
-        <img src={p3} alt="3D Print 3" />
-        <div class="tile-caption">
-          <strong>Print Gamma</strong>
-          <span>Fixture and jig</span>
+          <strong>Tekton</strong>
+          <span>A Custom Designed 350x350 3D Printer</span>
         </div>
       </a>
     </div>
@@ -78,30 +62,15 @@
     <h2>Computer Architecture</h2>
     <div class="tiles">
       <a class="tile" href="#">
-        <img src={a1} alt="Architecture 1" />
+        <img src={a1} alt="3D Print 1" />
         <div class="tile-caption">
-          <strong>Microarch Study</strong>
-          <span>Pipeline visualization</span>
-        </div>
-      </a>
-
-      <a class="tile" href="#">
-        <img src={a2} alt="Architecture 2" />
-        <div class="tile-caption">
-          <strong>Cache Experiments</strong>
-          <span>Latency profiling</span>
-        </div>
-      </a>
-
-      <a class="tile" href="#">
-        <img src={a3} alt="Architecture 3" />
-        <div class="tile-caption">
-          <strong>ISA Design</strong>
-          <span>Instruction set ideas</span>
+          <strong>RISCV Zero</strong>
+          <span>A 5-stage RISCV pipeline</span>
         </div>
       </a>
     </div>
   </section>
+
 </main>
 
 <style>
@@ -118,7 +87,9 @@
 
   .projects-header h1 {
     margin: 0 0 0.5rem 0;
-    font-size: 2.25rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0f172a;
   }
 
   .projects-section {
@@ -150,7 +121,7 @@
   .tile img {
     width: 100%;
     height: 160px;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
   }
 

@@ -12,8 +12,8 @@ export const blogPosts: BlogPostData[] = [
     date: 'December 25, 2025',
     content: `
         <p>
-            It's Christmas! I finally have some downtime to put this site together. I got a little lazy and am
-            going to rely heavily on co-pilot to make this site, with the goal of getting a professional,clean looking site as
+            It's Christmas! I finally have some downtime to put this site together. Since I wanted to get up and running I and am
+            going to rely heavily on co-pilot to make this site, with the goal of getting a professional, clean looking style as
             quickly as possible.
 
             Since I hosting this site on Cloudflare, I am going to use Svelte with npm to quickly generate a template.
@@ -44,8 +44,8 @@ export const blogPosts: BlogPostData[] = [
                 │
             </code>
         </p>
-        <p> It was pretty barebones at first, and this was my first time working with svelte. </p>
-        <p> I am not the best UI designer, So .. copilot to the rescue.
+        <p> It was pretty barebones, but my first page was up and served locally!
+         admittedly, am not the best UI designer, So .. copilot to the rescue.
 
         <p> A good first step in devloping a site is to create the header, so I asked: <br><br>
           <code> Can you create a header for my page with the title (Stephen Carrasquillo) and a navigation bar on the right ? </code> <br><br>
