@@ -59,5 +59,34 @@ export const blogPosts: BlogPostData[] = [
           <li> - An education section to share random things I learn while working on, well, whatever! </li>
         </ul>
     `
+  },
+  {
+    slug: 'talos-1',
+    title: 'Talos #1: Getting back to it',
+    date: 'December 29, 2025',
+    content: `
+        <p>
+            After about a year of not messing with my smartspeaker I decided to try and finish it.
+            In summary, I had a working prototype in December 2024, but after some updates to ESPhome, the microphone no longer functioned.
+            I spent a good amount of time trying to get my custom wakeword working and after trying my first test the system was in a completley broken state.
+            <br><br>
+            I tried down-versioning, replacing all the compnents, going back to breadboard and nothing was working - so I put it aside hoping that the
+            maintainers would get it working.
+            Since then, NabuCasa has come out with their own smart home device, and it looks like support has waned on the esp32 code maintenence.
+            Now I feel like its up to me to get this wokring.
+            <br><br>
+            To start debugging I used a Salae logic analyze on the the SCK and SD pins to see if the ESP master is correctly driving the lines,
+            and it appears that the lines are completely dead.
+            <br><br>
+            To eliminate HW as the issue I used <a href="../esp32_i2s_legacy.c">This Sketch</a> to use what were considered "legacy" esp drivers
+            to listen on the microphone and plot the data, and it worked like a charm, so it seems like it's not the hardware's fault.
+            <br><br>
+            Using <a href="https://developers.esphome.io/contributing/development-environment/"> This guide </a> I pulled the current esphome
+            code base. Now the fun part begins.
+
+            <h1> Time to roll up my sleeves and get my hands dirty :) </h1>
+
+        </p>
+    `
   }
 ];
